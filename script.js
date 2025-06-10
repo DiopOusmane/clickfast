@@ -453,3 +453,8 @@ class ClickFastGame {
 document.addEventListener('DOMContentLoaded', () => {
     new ClickFastGame();
 });
+
+module.exports = {
+    ClickFastGame
+};
+// Export the ClickFastGame class for testing purposes
